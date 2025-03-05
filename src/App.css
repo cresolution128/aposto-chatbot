@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+    font-size: 3.9vw !important;
+  
+    @media screen and (min-width: 48em) {
+      font-size: calc(16 / 1640 * 100vw) !important;
+    }
+  
+    @media screen and (min-width: 102.5em) {
+      font-size: 16px !important;
+    }
+}
